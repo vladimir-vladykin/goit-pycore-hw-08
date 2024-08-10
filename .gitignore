@@ -1,3 +1,6 @@
+# ignore pickle files, we keep local state of AddressBook there, it's not needed in git
+*.pkl
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
